@@ -1,0 +1,29 @@
+---
+format: revealjs
+---
+
+## Slide 1
+
+:::: {.columns}
+
+::: {.column}
+
+::: {.fragment}
+
+### Next component
+
+Here is a [gap]{.fragment}
+
+:::
+
+Hello
+
+:::
+
+::: {.column .fragment}
+
+### Second component
+
+:::
+
+::::
