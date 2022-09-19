@@ -34,7 +34,7 @@
 
 -   with `rsconnect` Python CLI, use `rsconnect deploy quarto` - indicates Quarto content
 
-
+- Requires an API token - [generate from RStudio Connect](https://docs.rstudio.com/connect/user/api-keys/)
 
 ## Connecting to Connect
 
@@ -43,6 +43,8 @@
 Make sure you are using a recent version of `quarto`/`rsconnect` R packages.
 
 ```r
+# quarto v1.2
+# rsconnect v0.8.27
 install.packages(c("quarto", "rsconnect"))
 ```
 
@@ -79,6 +81,7 @@ rsconnect::deployDoc(
 ### From Python
 
 Make sure you're on a recent version of `rsconnect-python` (2022-09-19 is [v1.10](https://colorado.rstudio.com/rspm/client/#/repos/14/packages/rsconnect-python))
+
 ```bash
 pip install rsconnect
 # if needing to upgrade
