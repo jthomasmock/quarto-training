@@ -7,3 +7,4 @@
 | Week 3 |  [03-workbench](workshop/03-workbench)    |
 | Week 4 |   [04-reports-presentations](workshop/04-reports-presentations)   |
 | Week 5 |  [05-publishing](workshop/05-publishing)    |
+| Week 6 |  [06-overview](https://github.com/jthomasmock/quarto-training/blob/master/slides/06-quarto-overview.qmd)  |
